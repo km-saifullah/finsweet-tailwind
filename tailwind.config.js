@@ -18,6 +18,9 @@ tailwind.config = {
       fontSize: {
         bannerHeading: "64px",
       },
+      lineHeight: {
+        paragraphLineHeight: "24px",
+      },
       backgroundImage: {
         banner: "url('./images/banner.jpg')",
       },
