@@ -11,6 +11,7 @@ tailwind.config = {
         black: "#1C1D28",
         subHeading: "#161722",
         churchItemBG: "#FFF5EB",
+        watchBG: "#F5F2F0",
       },
       fontFamily: {
         roboto: "'Roboto Condensed', sans-serif",
@@ -23,6 +24,8 @@ tailwind.config = {
       },
       backgroundImage: {
         banner: "url('./images/banner.jpg')",
+        overlay:
+          "linear-gradient(40deg, #060606 16.68%, rgba(0, 0, 0, 0.02) 96.44%)",
       },
     },
   },
