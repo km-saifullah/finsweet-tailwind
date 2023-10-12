@@ -20,49 +20,60 @@
   <body>
     <!-- =========== Navbar Start =========== -->
     <nav class="bg-navBG py-3">
-      <div class="max-w-container mx-auto">
-        <div class="flex items-center">
+      <div class="w-full 2xl:max-w-container mx-auto px-2 sm:px-4 lg:px-8">
+        <div class="flex items-center justify-between">
           <div
-            class="w-[200px] relative after:absolute after:content-[''] after:w-[2px] after:h-[80px] after:bg-white after:opacity-25 after:right-0 after:top-[-24px]"
+            class="w-[auto] sm:w-[200px] relative after:absolute after:content-[''] after:w-[2px] after:h-[80px] after:bg-transparent lg:after:bg-white after:opacity-25 after:right-0 lg:after:right-[-30px] after:top-[-24px] lg:after:top-[-16px] xl:after:top-[-24px]"
           >
-            <img src="./images/logo.png" alt="" />
+            <img
+              src="./images/logo.png"
+              alt=""
+              class="w-[70%] md:w-[75%] lg:w-full"
+            />
           </div>
-          <div class="w-[1080px] flex items-center justify-between">
-            <ul class="flex gap-x-12 items-center ml-16">
-              <li>
-                <a
-                  href="#"
-                  class="text-base font-roboto text-white font-normal uppercase opacity-90 transition all duration-300 hover:opacity-100"
-                  >Home</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-base font-roboto text-white font-normal uppercase opacity-90 transition all duration-300 hover:opacity-100"
-                  >about us</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-base font-roboto text-white font-normal uppercase opacity-90 transition all duration-300 hover:opacity-100"
-                  >sermon</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-base font-roboto text-white font-normal uppercase opacity-90 transition all duration-300 hover:opacity-100"
-                  >Blog</a
-                >
-              </li>
-            </ul>
-            <a
-              href="#"
-              class="inline-block bg-primary px-12 py-5 rounded-xl text-black font-roboto text-base font-normal uppercase leading-none"
-              >Contact us</a
+          <div class="block lg:hidden cursor-pointer">
+            <i class="fa-solid fa-bars text-white sm:text-2xl"></i>
+          </div>
+          <div class="hidden lg:block">
+            <div
+              class="lg:w-[auto] xl:w-[1080px] flex items-center justify-between"
             >
+              <ul class="flex gap-x-12 items-center ml-16">
+                <li>
+                  <a
+                    href="#"
+                    class="text-base font-roboto text-white font-normal uppercase opacity-90 transition all duration-300 hover:opacity-100"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-base font-roboto text-white font-normal uppercase opacity-90 transition all duration-300 hover:opacity-100"
+                    >about us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-base font-roboto text-white font-normal uppercase opacity-90 transition all duration-300 hover:opacity-100"
+                    >sermon</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-base font-roboto text-white font-normal uppercase opacity-90 transition all duration-300 hover:opacity-100"
+                    >Blog</a
+                  >
+                </li>
+              </ul>
+              <a
+                href="#"
+                class="inline-block bg-primary py-5 px-6 xl:px-12 xl:py-5 rounded-xl text-black font-roboto text-base font-normal uppercase leading-none ml-8"
+                >Contact us</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -70,7 +81,7 @@
     <!-- =========== Navbar End =========== -->
 
     <!-- =========== Banner Start =========== -->
-    <section class="py-32 bg-banner bg-no-repeat bg-cover bg-center">
+    <!-- <section class="py-32 bg-banner bg-no-repeat bg-cover bg-center">
       <div class="max-w-container mx-auto">
         <div>
           <h6
@@ -95,11 +106,11 @@
           </p>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- =========== Banner End =========== -->
 
     <!-- =========== Church Start =========== -->
-    <section class="py-32">
+    <!-- <section class="py-32">
       <div class="max-w-container mx-auto">
         <div>
           <h5
@@ -182,11 +193,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- =========== Church End =========== -->
 
     <!-- =========== Compassion Start =========== -->
-    <section class="pb-32">
+    <!-- <section class="pb-32">
       <div class="max-w-container mx-auto">
         <div class="text-center">
           <h5
@@ -266,11 +277,11 @@
           ></a>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- =========== Compassion End =========== -->
 
     <!-- =========== Watch Start =========== -->
-    <section class="bg-watchBG py-32">
+    <!-- <section class="bg-watchBG py-32">
       <div class="max-w-container mx-auto">
         <div class="text-center w-[440px] mx-auto">
           <h5
@@ -294,7 +305,6 @@
             <div
               class="absolute left-0 top-[74%] w-full h-full bg-overlay p-8 transition-all duration-300 group-hover:top-[45%]"
             >
-              <!-- rgba(0, 0, 0, 0.02) -->
               <h4
                 class="font-roboto text-2xl text-white font-bold leading-none uppercase mb-4"
               >
@@ -317,7 +327,6 @@
             <div
               class="absolute left-0 top-[74%] w-full h-full bg-overlay p-8 transition-all duration-300 group-hover:top-[45%]"
             >
-              <!-- rgba(0, 0, 0, 0.02) -->
               <h4
                 class="font-roboto text-2xl text-white font-bold leading-none uppercase mb-4"
               >
@@ -340,7 +349,6 @@
             <div
               class="absolute left-0 top-[74%] w-full h-full bg-overlay p-8 transition-all duration-300 group-hover:top-[45%]"
             >
-              <!-- rgba(0, 0, 0, 0.02) -->
               <h4
                 class="font-roboto text-2xl text-white font-bold leading-none uppercase mb-4"
               >
@@ -363,7 +371,6 @@
             <div
               class="absolute left-0 top-[74%] w-full h-full bg-overlay p-8 transition-all duration-300 group-hover:top-[45%]"
             >
-              <!-- rgba(0, 0, 0, 0.02) -->
               <h4
                 class="font-roboto text-2xl text-white font-bold leading-none uppercase mb-4"
               >
@@ -379,11 +386,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- =========== Watch End =========== -->
 
     <!-- =========== Upcoming Start =========== -->
-    <section class="py-32">
+    <!-- <section class="py-32">
       <div class="max-w-container mx-auto">
         <div class="text-center w-[554px] mx-auto">
           <h5
@@ -489,11 +496,11 @@
           ></a>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- =========== Upcoming End =========== -->
 
     <!-- =========== Visit Start =========== -->
-    <section class="bg-visitBG bg-no-repeat bg-cover bg-center py-32">
+    <!-- <section class="bg-visitBG bg-no-repeat bg-cover bg-center py-32">
       <div class="max-w-container mx-auto">
         <div
           class="w-[768px] bg-white mx-auto py-[72px] px-[48px] border-primary border-b-[16px] relative"
@@ -518,11 +525,11 @@
           </picture>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- =========== Visit End =========== -->
 
     <!-- =========== Blog Start =========== -->
-    <section class="py-32">
+    <!-- <section class="py-32">
       <div class="max-w-container mx-auto">
         <div class="text-center w-[554px] mx-auto">
           <h5
@@ -678,11 +685,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- =========== Blog End =========== -->
 
     <!-- =========== Footer Start =========== -->
-    <footer class="bg-subHeading py-16">
+    <!-- <footer class="bg-subHeading py-16">
       <div class="max-w-container mx-auto">
         <div class="flex">
           <div>
@@ -800,7 +807,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- =========== Footer End =========== -->
 
     <script src="./tailwind.config.js"></script>
